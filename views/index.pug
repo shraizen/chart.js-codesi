@@ -1,0 +1,16 @@
+doctype html
+html 
+    head
+        style
+            include ../public/css/style.css
+        title= title
+         
+    body 
+        header 
+            h1 Tickets vendus dans les musées français par année
+        section 
+            canvas#myChart(width="400" height="400")
+            h1#arrayYear= arrayYear
+            h1#arrayStats= arrayStats
+        script(type='module' src='/script/chart.mjs.js')
+        script(src='https://cdn.jsdelivr.net/npm/chart.js')

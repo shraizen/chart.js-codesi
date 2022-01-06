@@ -1,0 +1,8 @@
+body {
+    margin:2em;
+    font: 12px system-ui;
+}
+
+#arrayYear,#arrayStats{
+    display: none;
+}
