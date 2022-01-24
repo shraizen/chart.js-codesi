@@ -1,3 +1,6 @@
 # chart.js-codesi
-#to use :
+# Install dependencies :
 npm install 
+
+# Run (with nodemon) : 
+npm run dev
